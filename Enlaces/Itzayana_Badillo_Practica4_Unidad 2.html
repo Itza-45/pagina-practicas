@@ -1,0 +1,960 @@
+<HTML>
+    <head>
+        <title>Practica 4 - Unidad 2</title>
+    </head>
+    <BODY BGCOLOR="#CAEEEA">
+	<a id="volver"></a>
+   <CENTER><H1>Etiquetas HTML</H1></CENTER>
+   <HR>
+
+<ol type="1" >
+	 <li><a href="#1">HEAD</a></li>
+	 <li><a href="#2">BODY</a></li>
+	 <li><a href="#3">TITLE</a></li>
+	 <li><a href="#4">OL</a></li>
+	 <li><a href="#5">UL</a></li>
+	 <li><a href="#6">P</a></li>
+	 <li><a href="#7">H1 - H6</a></li>
+	 <li><a href="#8">DIV</a></li>
+	 <li><a href="#9">IMG</a></li>
+	 <li><a href="#10">VIDEO</a></li>
+	 <li><a href="#11">SOURCE</a></li>
+	 <li><a href="#12">TABLE</a></li>
+	 <li><a href="#13">FORM</a></li>
+	 <li><a href="#14">BUTTON</a></li>
+	 <li><a href="#15">SELECT</a></li>
+	 <li><a href="#16">FONT</a></li>
+	 <li><a href="#17">TIME</a></li>
+	 <li><a href="#18">TR</a></li>
+	 <li><a href="#19">TD</a></li>
+	 <li><a href="#20">TH</a></li>
+	 <li><a href="#21">BR</a></li>
+	 <li><a href="#22">A</a></li>
+	 <li><a href="#23">PRE</a></li>
+	 <li><a href="#24">DD</a></li>
+	 <li><a href="#25">HTML</a></li>
+	 <li><a href="#26">Fuente consultada</a></li>
+ </ol>
+ 
+ <p size=4><i>En la sintaxis y ejemplo, se colocara un guion -,
+ para que se pueda visualizar.<i></p>
+ 
+ <h1 id="1">HEAD</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Provee información general (metadatos) acerca del documento, 
+	 incluyendo su título y enlaces a scripts y hojas de estilos.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT>
+	 <i>Globales:</i>Accesskey, autocapitalize, class, contextmenu, 
+	 data, dir, draggable, hidden, id, inputmode, style, title, 
+	 translate, por mencionar algunos.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	    <pre>
+		<-html>
+           <-head>
+    
+           <-/head>
+         <-/html>
+		</pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	     <pre>
+		 <-html>
+           <-head>
+            <-title>Mi primera página HTML<-/title>
+           <-/head>
+         <-/html>
+		 </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="2">BODY</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Representa el contenido de un documento HTML. Solo puede 
+	 haber un elemento body en un documento.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT>
+	 <i>Globales:</i>Alink, background, bgcolor, bottommargin, 
+	 leftmargin, link, rightmargin, text, topmargin, vlink, 
+	 por mencionar algunos.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	     <pre>
+		 <-html>
+           <-body>
+    
+           <-/body>
+         <-/html>
+		 </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	     <pre>
+		 <-html>
+           <-head>
+            <-title>Titulo del documento<-/title>
+           <-/head>
+		   <-body>
+		     <-p>Este es un parrafo<-/p>
+			<-/body>
+         <-/html>
+		 </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="3">TITLE</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Usada para definir el título de la página web.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT>
+	 <i>Genéricos:</i>Lang, dir.<br>
+
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	 <-html>
+           <-title>
+    
+           <-/title>
+     <-/html>
+	 </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	  <-head>
+         <-title>Ejemplo de uso del elemento title<-/title>
+               ... otros elementos de cabecera...
+      <-/head>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="4">OL</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Permite definir listas o viñetas ordenadas (“Ordered List”), 
+	 bien con numeración o alfabéticamente.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT>
+	 <i>Genericos:</i>Title, style, id, class, dir, lang, li, ul.
+     <i>Transición:</i>Type, compact y start<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-body>
+         <-ol>
+         <-li>punto uno<-/li>
+         <-li>punto dos<-li>
+         <-li>punto tres<-/li>
+         <-/ol->
+         <-/body>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-ol>
+         <-li>Definicion<-/li>
+         <-li>Caracteristicas<-/li>
+         <-li>Ejemplos<-/li>
+         <-/ol>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="5">UL</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 "unordered list" -lista no ordenada . crea una lista no ordenada.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT>
+	 <i>Genericos:</i>Title, id, class, style, lang, dir.
+     <i>Transición:</i>Type, compact<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-body>
+         <-ul>
+         <-li>una<-/li>
+         <-li>lista no<-li>
+         <-li>ordenada<-/li>
+         <-/ul->
+         <-/body>
+	  
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-ul>
+         <-li>Esto<-/li>
+         <-li>Lo otro<-li>
+         <-li>Lo de mas alla<-/li>
+         <-/ul->
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="6">P</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Es el apropiado para distribuir el texto en párrafos.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT>
+	 <i>Genericos:</i>Title, id, class, style, lang, dir.
+     <i>Transición:</i>align<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-body>
+         <-p>
+		 Aqui se escribe el parrafo
+		 <-/p>
+         <-/body>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-p>
+		 Esto
+		 es un
+		 parrafo
+		 <-/p>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="7">H1 - H6</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Los elementos de encabezado implementan seis niveles de 
+	 encabezado del documento, <-h1> es el más importante, y <-h6>, 
+	 el menos importante.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 <i>Globales:</i>Accesskey, autocapitalize, class, contextmenu, 
+	 data, dir, draggable, hidden, id, inputmode, style, title, 
+	 translate, por mencionar algunos.<br>
+
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-body>
+         <-h1>level 1<-/h1>
+         <-h2>level 2<-/h2>
+         <-h3>level 3<-/h3>
+         <-h4>level 4<-/h4>
+         <-h5>level 5<-/h5>
+         <-h6>level 6<-/h6>
+         <-/body>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-h1>Titulo level 1<-/h1>
+         <-h2>Titulo level 2<-/h2>
+         <-h3>Titulo level 3<-/h3>
+         <-h4>Titulo level 4<-/h4>
+         <-h5>Titulo level 5<-/h5>
+         <-h6>Titulo level 6<-/h6>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="8">DIV</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 "division" -división . 
+	 Sirve para crear secciones o agrupar contenidos.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT>
+	 <i>Genericos:</i>Title, id, class, style, lang, dir.
+     <i>Especificos:</i>Datasrc, datafld, dataformatas
+     <i>Transición:</i>align<br>
+
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-html>
+         <-div style="color: blue;"> 
+         <-body>
+    
+         <-/body>
+         <-/div>
+         <-/html>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-div style="color: blue;">
+         <-h2> Ejemplo de div<-/h2>
+         <-p>
+         Esto es un párrafo dentro de un div,
+         <-/p>
+         <-/div>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="9">IMG</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Representa una imagen en el documento.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 <i>Globales:</i>Accesskey, autocapitalize, class, contextmenu,
+	 data, dir, draggable, hidden, id, inputmode, style, title, 
+	 translate, por mencionar algunos<br>
+     Widht, usemap, src, height.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-img src="mdn-logo-sm.png">
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-img src="logo.png">
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="10">VIDEO</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Se utiliza para incrustar vídeos en un documento HTML o XHTML.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 Autoplay, buffered, controls, height, loop, preload, 
+	 src, width, poster.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-body>
+         <-video src="videofile.ogg"
+         </video>
+         <-/body>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-video src="https://www.youtube.com/"</video>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="11">SOURCE</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Especifica recursos de medios múltiples para los elementos 
+	 <-picture>, <-audio>, o <-video>. Es un elemento vacío. 
+	 Normalmente se utiliza para servir el mismo contenido multimedia
+	 en varios formatos soportados por diferentes navegadores.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 Sizes, src, type, media.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-video controls>
+         <-source src="foo.webm" type="video/webm">
+         <-source src="foo.ogg" type="video/ogg">
+         <-source src="foo.mov" type="video/quicktime">
+         <-/video>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	    <-audio controls>
+        <-source src="/assets/audio/Jahzzar_The_Flowers_Are_Still_Standing.ogg" 
+		type="audio/ogg">
+        <-/audio>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="12">TABLE</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Representa datos en dos o más dimensiones<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 Align, bgcolor, border, cellpadding, 
+	 cellspacing, frame, summary, width.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-body>
+         <-table>
+         <-tr>
+         <-th>First name<-/th>
+         <-th>Last name<-/th>
+         <-/tr>
+         <-tr>
+         <-td>John<-/td>
+         <-td>Doe<-/td>
+         <-/tr>
+         <-tr>
+         <-td>Jane<-/td>
+         <-td>Doe<-/td>
+         <-/tr>
+         <-/table>
+         <-/body>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-table>
+         <-tr>
+         <-th>Nombre<-/th>
+         <-th>Apellido<-/th>
+         <-/tr>
+         <-tr>
+         <-td>Armando<-/td>
+         <-td>Sanchez<-/td>
+         <-/tr>
+         <-tr>
+         <-td>Daniela<-/td>
+         <-td>Flores<-/td>
+         <-/tr>
+         <-/table>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="13">FORM</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Representa una sección de un documento que contiene controles 
+	 interactivos que permiten a un usuario enviar información a 
+	 un servidor web<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 Accept, action, autocomplete, name, target, label, input.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-body>
+         <-form action="">
+         <-label for="GET-name">Nombre:<-/label>
+         <-input id="GET-name" type="text" name="name">
+         <-input type="submit" value="Save">
+         <-/form>
+         <-/body>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-form action="">
+         <-label for="GET-name">Nombre:<-/label>
+         <-input id="GET-name" type="text" name="name">
+         <-input type="submit" value="Save">
+         <-/form>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="14">BUTTON</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Representa un elemento cliqueable de tipo botón que puede 
+	 ser utilizado en formularios o en cualquier parte de la 
+	 página que necesite un botón estándar y simple de aplicar.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 <i>Genericos:</i>Title, id, class, style, lang, dir.
+	 <i>Especificos:</i>Name, value, type, reserved, disabled, accesskey<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-body>
+         <-button name="button">Click me<-/button>
+         <-/body>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-button name="favorito" type="button"><-/button>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="15">SELECT</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Representa un control que muestra un menú de opciones.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 Size, name, multiple, disabled, option<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-body>
+         <-select name="select">
+         <-option value="value1">Value 1<-/option>
+         <-option value="value2" selected>Value 2<-/option>
+         <-option value="value3">Value 3<-/option>
+         <-/select>
+         <-/body>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-select name="select">
+         <-option value="value1">Opcion 1<-/option>
+         <-option value="value2" selected>Opcion 2<-/option>
+         <-option value="value3">Opcion 3<-/option>
+         <-/select>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="16">FONT</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Indica el tamaño, color, o fuente del texto que contiene.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 <i>Genericos:</i>Title, id, class, style, lang, dir.
+	 <i>Transición:</i>Size, color, face<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-body>
+         <-p>
+          Texto normal y ...
+         <-font size="5" color="#0000ff"> Texto distinto.<-/font>
+         <-/p>
+         <-/body>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-font size="5" color="#0020ff"> Texto distinto.<-/font>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="17">TIME</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Representa un periodo específico en el tiempo.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 datatime<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-body>
+         <-p>El concierto empieza a las <-time>20:00<-/time>.<-/p>
+         <-/body>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-p>El concierto fué el <-time>15 de Mayo<-/time>.<-/p>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="18">TR</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Define una fila de celdas en una tabla.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 <i>Globales:</i>Accesskey, autocapitalize, class, contextmenu, data, dir,
+	 table<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-table>
+         <-tr>
+         Definicion de encabezado y celda
+         <-/tr>
+         <-/table>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-tr>
+         <-td>Armando<-/td>
+         <-td>Flores<-/td>
+         <-/tr>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="19">TD</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Define la celda de una tabla que contiene datos.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 Bgcolor, align, char, headers, width table<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-table>
+         <-tr>
+         <-td>Celda 1<-/td>
+         <-td>Celda 2<-/td>
+         <-/tr>
+         <-/table>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-tr>
+         <-td>Manzana<-/td>
+         <-td>Pera<-/td>
+         <-/tr>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="20">TH</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Define una celda como encabezado de un grupo de 
+	 celdas en una tabla.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 Align, bgcolor,headers, scope, width, table<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-table>
+         <-tr>
+         <-th>Encabezado 1<-/th>
+         <-th>Encabezado 2<-/th>
+         <-/tr>
+         <-/table>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-tr>
+         <-th>Manzana<-/th>
+         <-th>Pera<-/th>
+         <-/tr>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="21">BR</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Produce un salto de línea en el texto (retorno de carro).<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 <i>Globales:</i>Accesskey, autocapitalize, class, dir.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-body>
+         Mozilla Foundation<-br>
+         1981 Landings Drive<-br>
+         <-/body>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     Quiero que seas feliz<-br>,
+         Y que él sea feliz.<-br>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="22">A</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Crea un enlace a otras páginas de internet, archivos o 
+	 ubicaciones dentro de la misma página, direcciones de correo, 
+	 o cualquier otra URL.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 Href, real, target, type, name.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-body>
+         <-a href="https://www.mozilla.com/">
+         Enlace externo
+         <-/a>
+         <-/body>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-a href=" https://www.google.com.mx">Google<-/a>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="23">PRE</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Representa texto preformateado. El texto en este elemento 
+	 típicamente se muestra en una fuente fija, no proporcional, 
+	 exactamente como es mostrado en el archivo. Los espacios dentro 
+	 de este elemento también son mostrados como están escritos.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 <i>Globales:</i>Accesskey, autocapitalize, class, dir.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-body>
+         <-pre>
+         color:  red;
+         ---------------------------------
+         color:green;
+         <-/pre>
+         <-/body>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-pre>
+         …… 
+         ---------
+         ////////
+         ))))((((
+         <-/pre>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="24">DD</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Provee detalles acerca de o la definición de un término 
+	 precedente (<-dt>) en una lista de descripciones (<-dl>).<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	 Autoplay, buffered, controls, height, loop, preload, 
+	 src, width, poster.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-body>
+         <-dl>
+         <-dt>Firefox<-/dt>
+         <-dd>
+          A free, open source, cross-platform, graphical 
+		  web browser developed by the Mozilla Corporation and 
+		  hundreds of volunteers.
+         <-/dd>
+         <-/dl>
+         <-/body>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-dl>
+         <-dt>Manzana</dt>
+         <-d>
+         Fruta de color rojo redonda que crece en los arboles.
+         <-/dd>
+         <-/dl>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<h1 id="25">HTML</h1>
+ <p>
+     <FONT FACE="arial" size=3>
+	 
+	 <br><FONT FACE="times" size=5><B>Funcion:</B></FONT>
+	 Representa la raiz de un documento HTML. El resto de 
+	 los elementos descienden de este elemento.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Atributos</B></FONT><br>
+	<i>Globales:</i>Accesskey, autocapitalize, class, contextmenu, 
+	data, dir, draggable, hidden, id, inputmode, style, title, 
+	translate, por mencionar algunos.
+    Body, head, p, dd, form, etc.<br>
+	 
+	 <br><FONT FACE="times" size=5><B>Sintaxis</B></FONT>
+	 <pre>
+	     <-html>
+         <-head>...<-/head>
+         <-body>...<-/body>
+         <-/html>
+	  </pre>
+	 
+	 <br><FONT FACE="times" size=5><B>Ejemplo</B></FONT>
+	  <pre>
+	     <-html>
+		 <-head>
+         <-title>Mi página de ejemplo<-/title>
+	     <-/head>
+	     <-body>
+	     <-a> Esto es un párrafo<-/a> 
+	     <-/body>
+         <-/html>
+	  </pre>
+	 
+     </FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+</p>
+
+<br>
+
+<FONT FACE="times"><h1 id="26">Fuente consultada</h1></FONT>
+<p>
+     <FONT FACE="arial" size=3>
+     
+     <br>MDN Web Docs. (2021). Referencia de Elementos HTML. 
+	 Recuperado el 22/04/2021 de  
+	 <A HREF="https://developer.mozilla.org/es/docs/Web/HTML/Element">
+	 https://developer.mozilla.org/es/docs/Web/HTML/Element</A><br>
+	
+	</FONT>
+	 <br><a href="#volver">Volver al Inicio</a>
+ </p>
+</BODY>
+</HTML>
